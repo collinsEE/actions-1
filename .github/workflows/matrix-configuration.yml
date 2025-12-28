@@ -20,7 +20,7 @@ jobs:
               os: ubuntu-20.04
       runs-on: ${{ matrix.os }}
       steps:
-      - name: Echo Docker Details
+      - name: Echo Docker Detail
         run: docker info
 
       - name: Run Image on ${{ matrix.os }}
